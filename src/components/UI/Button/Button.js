@@ -4,9 +4,9 @@ const Button = (props) => {
     return (
         <button
             onClick={props.clickHandler}
-            className={`${classes.base} classes.${props.userClass}`}
+            className={`${classes.base} ${classes[props.userClass]}`}
         >
-            Button 1:state
+            <span>{props.icon}</span> <span>{props.title}</span>
         </button>
     );
 };

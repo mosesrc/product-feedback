@@ -1,3 +1,21 @@
 .ui-root {
-    margin: 94px 165px 129px;
+    margin-top: 94px;
+    margin-bottom: 129px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side-panel {
+    min-width: 255px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-section {
+    min-width: 825px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
 }

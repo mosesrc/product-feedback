@@ -1,13 +1,13 @@
 import { ReactComponent as UpArrow } from "../../../assets/shared/icon-arrow-up.svg";
 import classes from "./VoteButton.module.css";
 
-const VoteButton = () => {
+const VoteButton = ({ votes }) => {
     return (
         <button className={`${classes.base} ${classes["normal-arrow"]}`}>
             <span className={classes["icon-span"]}>
                 <UpArrow className={classes.icon} />
             </span>
-            <span>99:state</span>
+            <span>{votes}</span>
         </button>
     );
 };

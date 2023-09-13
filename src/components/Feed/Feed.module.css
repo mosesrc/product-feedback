@@ -1,0 +1,5 @@
+.feed {
+    width: 825px;
+    display: flex;
+    flex-direction: column;
+}

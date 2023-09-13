@@ -4,7 +4,7 @@ import classes from "./FeatureButton.module.css";
 const FeatureButton = (props) => {
     const [activeBtn, setActiveBtn] = useState(false);
 
-    const makeActive = () => {
+    const makeActive = (props) => {
         setActiveBtn((activeBtn) => !activeBtn);
     };
 
