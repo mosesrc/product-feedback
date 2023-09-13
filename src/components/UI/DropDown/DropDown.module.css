@@ -26,7 +26,6 @@
 }
 
 .dropdown-content {
-    color: #647196;
     background: #ffffff;
     box-shadow: 0px 10px 40px -7px rgba(55, 63, 104, 0.350492);
     border-radius: 10px;
@@ -38,7 +37,7 @@
 }
 
 .dropdown-content a {
-    color: #647196;
+    color: #3a4374;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

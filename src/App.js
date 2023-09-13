@@ -1,4 +1,4 @@
-import UIRoot from "./components/UI/UIRoot/UIRoot";
+import UIRoot from "./components/UIRoot/UIRoot";
 
 function App() {
     return <UIRoot />;
