@@ -1,0 +1,40 @@
+.header {
+    background: radial-gradient(
+        128.88% 128.88% at 103.9% -10.39%,
+        #e84d70 0%,
+        #a337f6 53.09%,
+        #28a7ed 100%
+    );
+    max-width: 255px;
+    height: 137px;
+    padding-top: 64px;
+    padding-left: 24px;
+    padding-right: 78px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    /* mix-blend-mode: normal; */
+    /* opacity: 0.77; */
+    /* filter: blur(44.8517px); */
+    /* background: #7AD8FB;
+background: #FBB57A; */
+}
+
+.header h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -0.25px;
+    color: #ffffff;
+}
+
+.header h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}

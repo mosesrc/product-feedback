@@ -13,7 +13,7 @@ const FeatureButton = (props) => {
             className={`${classes.button} ${activeBtn && classes.active}`}
             onClick={makeActive}
         >
-            UX:state
+            {props.title}
         </button>
     );
 };

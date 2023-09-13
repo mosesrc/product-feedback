@@ -1,0 +1,10 @@
+.feature-board {
+    max-width: 255px;
+    height: auto;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 50px;
+    padding-bottom: 24px;
+    background: #ffffff;
+    border-radius: 10px;
+}
