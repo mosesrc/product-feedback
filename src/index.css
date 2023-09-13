@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Jost", sans-serif;
 }
 
 html {
@@ -15,7 +16,7 @@ body {
     min-height: 100%;
     background: #f7f8fd;
     margin: 0;
-    font-family: "Jost", sans-serif;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

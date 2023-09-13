@@ -3,6 +3,7 @@ import FeatureButton from "../FeatureButton/FeatureButton";
 import Button from "../Button/Button";
 import GoBackButton from "../GoBackButton/GoBackButton";
 import VoteButton from "../VoteButton/VoteButton";
+import DropDown from "../DropDown/DropDown";
 
 const UIRoot = () => {
     return (
@@ -13,6 +14,7 @@ const UIRoot = () => {
                 <Button />
                 <GoBackButton />
                 <VoteButton />
+                <DropDown />
             </div>
         </>
     );

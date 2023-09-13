@@ -7,7 +7,7 @@ const VoteButton = () => {
             <span className={classes["icon-span"]}>
                 <UpArrow className={classes.icon} />
             </span>
-            <span>99</span>
+            <span>99:state</span>
         </button>
     );
 };
