@@ -1,0 +1,39 @@
+.base {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 17px 41px;
+
+    border-radius: 10px;
+
+    border: 2px solid #cdd2ee;
+    /* transform: rotate(-90deg); */
+}
+
+.base span {
+    margin-left: 15px;
+}
+
+.base span:hover {
+    text-decoration: underline;
+}
+
+.reset-btn1 {
+    color: #647196;
+    background-color: #f7f8fd;
+    border: none;
+}
+
+.icon-btn1 path {
+    stroke: #4661e6;
+}
+
+.reset-btn2 {
+    color: #ffffff;
+    background-color: #373f68;
+}
+
+.icon-btn2 path {
+    stroke: #cdd2ee;
+}
